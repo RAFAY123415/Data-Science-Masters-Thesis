@@ -1,0 +1,2505 @@
+Question: Can you get anyones location using NaC?
+
+Response:
+
+While Network-as-Code (NaC) does provide location-based capabilities, it's important to clarify that you cannot arbitrarily get anyone's location using NaC. There are several key points to understand about location services in NaC:
+
+1. Privacy and Authorization: Querying a device's location has serious privacy implications. NaC emphasizes that location retrieval should be done carefully and with proper authorization.
+
+2. Specific Use Cases: Location services are typically used for specific, authorized purposes such as fraud prevention in banking applications or security features in enterprise settings.
+
+3. User Consent: In many cases, user consent is required before their location can be accessed. This is often implemented through authentication flows and explicit user permissions.
+
+4. Device Association: To retrieve a location, you typically need to have a registered device object associated with the user or application. This is not something you can do for just any random person.
+
+5. Intended for Legitimate Applications: NaC's location features are designed for legitimate business applications, such as improving security in financial transactions or optimizing services based on user location.
+
+6. Legal and Ethical Considerations: The use of location data is subject to various legal and ethical constraints, which vary by jurisdiction and use case.
+
+It's crucial to approach location services with respect for user privacy and in compliance with all applicable laws and regulations. NaC provides these capabilities for authorized, legitimate use cases, not for indiscriminate tracking of individuals.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/location/location-verification
+* Source: https://developer.networkascode.nokia.io/docs/location/location-retrieval
+
+Time taken for printing first token: 20.03 seconds
+Time taken for printing last token: 20.03 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 20.04 seconds
+
+-------------------------------------------------------------
+
+Question: Is NaC commercial?
+
+Response:
+
+Yes, Network-as-Code (NaC) is a commercial product offered by Nokia. Here are some key points about its commercial nature:
+
+1. Monetization Model: NaC capabilities have different monetization models. For example, Quality on Demand (QoD) and Specialized Network features are typically priced based on time duration, while Device Location and Device Insights are often charged per API call.
+
+2. Available Services: NaC offers several commercial services including Quality on Demand, Device Location, Specialized Networks, and Device Insights. These are available for use by developers and businesses.
+
+3. Future Services: Nokia has plans to expand NaC's commercial offerings. Future capabilities may include Network Insights and Edge Apps, though these are not yet available.
+
+4. Developer Portal: Nokia has launched a developer portal for NaC, which suggests a focus on building a commercial ecosystem around these network capabilities.
+
+5. Enterprise Focus: Many of NaC's use cases are geared towards enterprise applications, indicating its commercial nature. This includes applications in industries like transportation, logistics, public safety, and entertainment.
+
+6. Pricing Structure: While specific pricing details aren't provided in the given information, the existence of monetization models implies that access to NaC capabilities comes at a cost to users.
+
+7. API Access: The commercial model likely involves providing API access to NaC capabilities, which developers can then integrate into their applications.
+
+It's important to note that while NaC is a commercial product, the exact pricing and terms of service would typically be obtained through direct contact with Nokia or through their official channels.
+
+Sources:
+* Source: Based on Network-as-Code use cases shared by Nokia
+
+Time taken for printing first token: 18.59 seconds
+Time taken for printing last token: 18.59 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 18.60 seconds
+
+-------------------------------------------------------------
+
+Question: Can I boost my device connections with NaC?
+
+Response:
+
+Yes, you can boost device connections using Network-as-Code (NaC) capabilities, specifically through the Quality on Demand (QoD) feature. Here's how NaC can help boost device connections:
+
+1. Dynamic Bandwidth Allocation: NaC allows for temporary bandwidth boosts in public or private networks (4G/5G), or in 5G slices. This means you can increase the connection speed for specific devices when needed.
+
+2. Quality of Service (QoS) on Demand: You can request improved QoS for latency-sensitive devices and applications. This is particularly useful for applications that require high performance, such as video streaming, AR/VR, or real-time data processing.
+
+3. Specialized Networks: NaC enables the selection of network slices used by specific devices or applications. This allows for optimized network performance based on the needs of particular use cases.
+
+4. Time-Based Allocation: The QoD feature is typically priced based on time duration, allowing you to boost connections for specific periods as needed.
+
+5. Use Case Examples: 
+   - Temporary bandwidth boosts for high-resolution video, AR/VR/XR experiences, drone operations, or data collection.
+   - Improving connection quality for autonomous vehicles or industrial IoT devices that require stable, high-performance connectivity.
+
+6. Cross-Network Optimization: In some scenarios, NaC can help maintain consistent QoS across both private and public wireless networks.
+
+7. API Integration: Developers can integrate these capabilities into their applications, allowing for programmatic control of network quality based on real-time needs.
+
+It's important to note that while NaC provides these capabilities, their availability and specific implementation may depend on the network operator and the particular NaC services you're subscribed to. Also, boosting connections is done within the framework of authorized and legitimate use cases, not for circumventing network policies or fair usage guidelines.
+
+Sources:
+* Source: Based on Network-as-Code use cases shared by Nokia
+
+Time taken for printing first token: 33.73 seconds
+Time taken for printing last token: 33.73 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 33.74 seconds
+
+-------------------------------------------------------------
+
+Question: What is the coverage of NaC?
+
+Response:
+
+The coverage of Network-as-Code (NaC) depends on several factors, as it's not a standalone network but rather a set of programmable capabilities that work with existing network infrastructure. Here's what we can say about NaC coverage based on the available information:
+
+1. Selected Networks: NaC is available in selected networks. This suggests that it's not universally available across all mobile networks or regions.
+
+2. Public and Private Networks: NaC capabilities can be applied to both public and private networks, including 4G and 5G infrastructures.
+
+3. Enterprise/Campus Coverage: NaC services can be utilized in enterprise or campus settings, indicating coverage for specific localized areas.
+
+4. CSP Integration: The coverage largely depends on which Communication Service Providers (CSPs) have integrated NaC capabilities into their networks.
+
+5. Edge and Radio Networks: NaC services interact with edge computing resources and radio networks, suggesting coverage extends to areas where these technologies are deployed.
+
+6. Global Potential: While specific global coverage details aren't provided, NaC is designed to work with various network types and could potentially be implemented widely.
+
+7. Specialized Networks: The ability to create specialized networks or "slices" implies that coverage can be tailored for specific use cases within a broader network area.
+
+8. Developer Portal Availability: Nokia launched a developer portal for NaC in December 2023, which may provide more specific information about current coverage areas.
+
+It's important to note that the exact coverage of NaC would likely depend on agreements between Nokia and various network operators, as well as the specific NaC services being utilized. For the most up-to-date and accurate information on NaC coverage in specific areas or for particular use cases, it would be best to consult directly with Nokia or check their official NaC documentation.
+
+Sources:
+* Source: Based on Network-as-Code use cases shared by Nokia
+
+Time taken for printing first token: 19.84 seconds
+Time taken for printing last token: 19.84 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 19.85 seconds
+
+-------------------------------------------------------------
+
+Question: How edge apps can benefit from NaC?
+
+Response:
+
+Edge applications can significantly benefit from Network-as-Code (NaC) capabilities in several ways. While some edge app features are planned for future releases, NaC already offers several advantages for edge computing scenarios:
+
+1. Quality of Service on Demand (QoD):
+   - Edge apps can request temporary bandwidth boosts, ensuring high-performance during critical operations.
+   - This is particularly useful for applications requiring real-time processing or high-data throughput at the edge.
+
+2. Specialized Networks:
+   - NaC allows for the creation and management of network slices, which can be tailored for specific edge application needs.
+   - Edge apps can be assigned to optimized network slices, ensuring consistent performance.
+
+3. Device Location:
+   - Edge apps can leverage accurate location data to provide location-based services or optimize content delivery from the nearest edge node.
+   - This is charged per API call, allowing for flexible usage based on application needs.
+
+4. Device Insights:
+   - Edge apps can access device connection status and receive notifications about changes.
+   - This enables apps to adapt their behavior based on the current network conditions of connected devices.
+
+5. Future Capabilities (Planned):
+   - Network Insights: Edge apps will be able to access current and predicted network congestion data, allowing for proactive resource allocation and performance optimization.
+   - Edge App Management: NaC plans to offer capabilities for optimizing application deployment across device, edge, and central cloud locations.
+   - Dynamic scaling of edge workloads based on demand is also planned.
+
+6. Use Cases:
+   - Cloud Gaming: Ensuring low latency and high bandwidth for game streaming from edge locations.
+   - AR/VR/XR: Supporting immersive experiences by leveraging edge computing with optimized network conditions.
+   - Industrial IoT: Enabling real-time processing and analysis of sensor data at the edge with guaranteed network performance.
+
+7. Cross-Network Optimization:
+   - For applications that operate across both private (e.g., campus) and public networks, NaC can help maintain consistent performance.
+
+8. API Integration:
+   - Developers can integrate NaC capabilities directly into their edge applications, allowing for dynamic network resource allocation and optimization.
+
+By leveraging these NaC capabilities, edge applications can achieve better performance, lower latency, and more efficient use of network resources. This is particularly valuable in scenarios where edge computing is crucial for real-time processing, data analytics, or content delivery.
+
+Sources:
+* Source: Based on Network-as-Code use cases shared by Nokia
+
+Time taken for printing first token: 30.09 seconds
+Time taken for printing last token: 30.09 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 30.11 seconds
+
+-------------------------------------------------------------
+
+Question: How about net neutrality with NaC?
+
+Response:
+
+The topic of net neutrality in relation to Network-as-Code (NaC) is an important and complex one. While the provided information doesn't directly address net neutrality concerns, I can offer some insights based on the capabilities of NaC and general understanding of net neutrality principles:
+
+1. Quality of Service (QoS) Features:
+   NaC offers Quality on Demand and Specialized Network capabilities, which allow for prioritization of certain types of traffic or applications. This could potentially raise net neutrality concerns, as it enables differential treatment of network traffic.
+
+2. Network Slicing:
+   The ability to create specialized network slices for specific applications or use cases could be seen as a form of traffic management that may conflict with strict interpretations of net neutrality.
+
+3. Regulatory Compliance:
+   It's likely that Nokia has designed NaC to be compliant with existing regulations, including those related to net neutrality. However, the specific implementation would need to be evaluated in the context of each country's regulatory framework.
+
+4. Use Case Justification:
+   Many of the use cases for NaC (like autonomous vehicles, industrial IoT, public safety) could potentially fall under exceptions allowed by some net neutrality regulations for specialized services or reasonable network management.
+
+5. Transparency:
+   Net neutrality often requires transparency in network management practices. NaC's programmable nature could potentially provide more transparency in how network resources are allocated, if implemented correctly.
+
+6. User Control:
+   In some cases, NaC capabilities are activated at the request of the application or user, which could align with net neutrality principles that allow user choice in service quality.
+
+7. Balancing Innovation and Fairness:
+   NaC represents technological innovation in network management, which regulators often try to balance against principles of fairness and open internet access.
+
+It's important to note that the relationship between NaC and net neutrality would likely vary depending on:
+- Specific implementation details
+- Regulatory environment in different countries
+- How the technology is used in practice
+
+For a definitive answer on how NaC aligns with net neutrality principles, one would need to consult with legal experts and regulators in the specific markets where NaC is deployed. Nokia, as a responsible technology provider, likely has considered these issues in the design and implementation of NaC, but the exact details are not provided in the given information.
+
+Sources:
+* Source: Based on Network-as-Code use cases shared by Nokia
+
+Time taken for printing first token: 17.36 seconds
+Time taken for printing last token: 17.36 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 17.37 seconds
+
+-------------------------------------------------------------
+
+Question: Are NaC capabilities already in production level?
+
+Response:
+
+Yes, several Network-as-Code (NaC) capabilities are already at production level and available for use. Based on the information provided, here's an overview of the current status of NaC capabilities:
+
+1. Quality on Demand (QoD):
+   - Status: Available
+   - Use case: Dynamic Bandwidth Allocation for users/devices
+   - Monetization model: Time duration based
+
+2. Device Location:
+   - Status: Available
+   - Use cases: Get device/user location, Verify device/user location
+   - Monetization model: Per API call
+
+3. Specialized Network:
+   - Status: Available
+   - Use cases: 
+     a) Dynamic Bandwidth Allocation for users/devices
+     b) Select network slice for user/device/application
+     c) Dynamic network slice orchestration
+   - Monetization model: Time duration or Per API call, depending on the specific use case
+
+4. Device Insights:
+   - Status: Available
+   - Use cases: Get device connection status, Get notification for device connection status
+   - Monetization model: Per API call (or notification)
+
+These capabilities are described as being available in the NaC release 23.7, indicating they are at production level and ready for implementation.
+
+However, it's worth noting that some planned capabilities are still in development:
+
+5. Network Insights:
+   - Status: Future
+   - Planned use cases: Current and predicted network congestion, Verify network/slice performance (QoS)
+
+6. Edge Apps:
+   - Status: Future
+   - Planned use cases: Optimize application deployment across device, edge, and central cloud locations; Dynamic, demand-based scaling of edge workloads
+
+The availability of a developer portal launched in December 2023 further supports that NaC is operational and accessible to developers for integration into their applications.
+
+It's important to note that while these capabilities are available, their specific implementation and availability may vary depending on the network operator and region. Developers interested in using NaC should consult the latest documentation or contact Nokia directly for the most up-to-date information on availability and implementation details.
+
+Sources:
+* Source: Based on Network-as-Code use cases shared by Nokia
+
+Time taken for printing first token: 22.90 seconds
+Time taken for printing last token: 22.90 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 22.91 seconds
+
+-------------------------------------------------------------
+
+Question: How long can you boost QoD?
+
+Response:
+
+According to the documentation, you can boost Quality of Service on Demand (QoD) for a specific duration, with some key points to note:
+
+1. Maximum Duration: QoD sessions can last up to 24 hours.
+
+2. Specifying Duration: When creating a QoD session, you must specify a duration. This is a mandatory parameter.
+
+3. Duration Unit: The duration is specified in seconds.
+
+4. Example: In the code samples provided, a QoD session is created with a duration of 3,600 seconds, which equals 1 hour.
+
+5. Extending Sessions: You can extend an existing QoD session. For example, one code snippet shows extending a session by an additional 300 seconds (5 minutes).
+
+6. Flexibility: The ability to specify duration and extend sessions allows for flexible management of QoD boosts based on application needs.
+
+7. Session Lifecycle: QoD sessions have a lifecycle, starting with a "REQUESTED" status, moving to "AVAILABLE" when active, and becoming "UNAVAILABLE" when the duration expires or the session is deleted.
+
+8. Termination: You can also terminate a QoD session before its specified duration expires if it's no longer needed.
+
+Here's an example of creating a QoD session with a specified duration:
+
+```python
+my_session = my_device.create_qod_session(
+    service_ipv4="233.252.0.2",
+    service_ipv6="2001:db8:1234:5678:9abc:def0:fedc:ba98",
+    profile="QOS_L",
+    duration=3600  # Duration in seconds (1 hour in this case)
+)
+```
+
+Remember that while you can set durations up to 24 hours, it's generally good practice to use the shortest duration necessary for your application's needs, to efficiently manage network resources.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/quality-on-demand/session-duration
+* Source: https://developer.networkascode.nokia.io/docs/quality-on-demand/session-creation
+
+Time taken for printing first token: 20.23 seconds
+Time taken for printing last token: 20.24 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 20.25 seconds
+
+-------------------------------------------------------------
+
+Question: What if there are everyone boosting QoD?
+
+Response:
+
+That's an excellent question that touches on important aspects of network management and fairness. While the provided documentation doesn't directly address this scenario, I can offer some insights based on the general principles of Quality of Service (QoS) management and the information available about Network-as-Code (NaC):
+
+1. Network Capacity Limits: 
+   Even with QoD, there are physical limits to network capacity. If everyone were to boost QoD simultaneously, the network would still have a maximum total bandwidth to distribute.
+
+2. Prioritization Mechanisms:
+   NaC likely employs sophisticated prioritization algorithms to manage multiple QoD requests. Not all "boosts" would necessarily receive the same level of priority or resources.
+
+3. Service Level Agreements (SLAs):
+   Different users or applications may have different SLAs, which could affect how their QoD requests are handled in a high-demand scenario.
+
+4. Dynamic Resource Allocation:
+   The network would likely dynamically allocate resources based on various factors such as user priority, application type, and current network conditions.
+
+5. Potential for Congestion:
+   If everyone were boosting QoD, it could lead to network congestion, potentially negating some of the benefits of QoD for individual users.
+
+6. Operator Policies:
+   Network operators would likely have policies in place to manage excessive QoD usage and ensure fair distribution of resources.
+
+7. Pricing and Economic Factors:
+   The "Time duration" monetization model for QoD suggests that there may be economic incentives to prevent overuse, as prolonged or frequent boosts could become costly.
+
+8. Use Case Prioritization:
+   Critical services (e.g., emergency communications) would likely maintain priority even in high-demand scenarios.
+
+9. Network Slicing:
+   The use of network slicing could help isolate and protect resources for different types of services, even when overall demand is high.
+
+10. Adaptive QoS:
+    Advanced QoS systems often include adaptive mechanisms that adjust service levels based on overall network conditions.
+
+It's important to note that the specific behavior in such a scenario would depend on the implementation details of NaC and the policies of the network operator. The goal of technologies like NaC is to provide better service when needed, but also to ensure overall network stability and fairness.
+
+For precise information on how NaC handles scenarios of high QoD demand, it would be best to consult with Nokia directly or refer to any detailed technical documentation they may provide on network resource management strategies.
+
+Sources:
+* Source: Based on Network-as-Code use cases shared by Nokia
+
+Time taken for printing first token: 21.08 seconds
+Time taken for printing last token: 21.08 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 21.09 seconds
+
+-------------------------------------------------------------
+
+Question: What if location services of the phone are switched off? (employer wants to track field workers who do that for GPS)
+
+Response:
+
+This is an excellent question that highlights a key advantage of Network-as-Code (NaC) location services over traditional GPS-based tracking. NaC's location capabilities can still function even when a device's GPS or location services are turned off. Here's why:
+
+1. Network-Based Location:
+   NaC uses network-based location methods rather than relying on the device's GPS. This means it determines location based on the cell towers and network infrastructure the device is connected to.
+
+2. Cannot Be Disabled by User:
+   As stated in the documentation, "Device location cannot be 'spoofed' or disabled by the user (GPS disabled, VPN, etc.)". This is a significant advantage for employers needing to track field workers.
+
+3. Cellular Network Dependency:
+   As long as the device is connected to the cellular network, its approximate location can be determined, regardless of the device's settings.
+
+4. Accuracy Considerations:
+   While network-based location may not be as precise as GPS, it's often sufficient for many business use cases, especially for general location tracking of field workers.
+
+5. Privacy and Consent:
+   It's important to note that while this capability exists, its use should comply with local laws and regulations regarding employee privacy and consent.
+
+6. Use Case Example:
+   The documentation mentions a specific use case for "Asset Management and Asset Tracking" which includes:
+   - Get device location
+   - Geofencing
+   - Location breach alert
+   - Unauthorized access
+
+7. Benefits for Employers:
+   - Consistent tracking: Not dependent on worker's device settings
+   - Fraud prevention: Workers can't easily falsify their location
+   - Battery efficiency: Network-based location typically uses less battery than constant GPS tracking
+
+8. Limitations:
+   - Indoor accuracy may vary depending on network infrastructure
+   - Less precise than GPS for pinpoint locations
+
+9. Alternative to GPS:
+   The documentation states: "Get location when GPS is not functional (i.e. inside, underground, no line of sight)"
+
+This capability of NaC addresses a common challenge in workforce management where employees might disable location services to avoid tracking. It provides employers with a more reliable method of location tracking for legitimate business purposes, such as ensuring worker safety, optimizing field operations, or verifying time and attendance.
+
+However, it's crucial for employers to balance this capability with ethical considerations, transparent policies, and compliance with labor laws and privacy regulations.
+
+Sources:
+* Source: Based on Network-as-Code use cases shared by Nokia
+
+Time taken for printing first token: 32.04 seconds
+Time taken for printing last token: 32.04 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 32.05 seconds
+
+-------------------------------------------------------------
+
+Question: How do I get started with Network as Code?
+
+Response:
+
+To get started with Network as Code (NaC), you can follow these steps:
+
+1. Request Access:
+   Visit the contact sales page on the Network as Code developer portal to request access to the platform.
+
+2. Create an Account:
+   Once your access is approved, you'll be able to create an account on the Network as Code developer portal.
+
+3. Get Your App Key:
+   - Log in to the developer portal
+   - Go to your Dashboard
+   - Click on "Console" in the top navigation bar
+   - View your applications and copy your application key
+
+4. Subscribe to APIs:
+   - Go to the API Hub
+   - Select an API you want to use (e.g., Quality-of-service on Demand)
+   - Click "Subscribe to Test"
+   - Choose a plan and confirm your subscription
+
+5. Set Up Your Development Environment:
+   Create a new project directory and set up a virtual environment. For Python:
+
+   ```bash
+   mkdir nac-hello-world
+   cd nac-hello-world
+   python3 -m venv env
+   source env/bin/activate  # On Windows, use `env\Scripts\activate`
+   ```
+
+6. Install the Network as Code SDK:
+   For Python (version 3.9 or higher):
+   ```bash
+   pip install network_as_code
+   ```
+
+   For TypeScript:
+   ```bash
+   mkdir nac-hello-world-typescript
+   cd nac-hello-world-typescript
+   npm init
+   npm i typescript --save-dev
+   npm i network-as-code
+   npx tsc --init
+   ```
+
+7. Write Your First NaC Program:
+   Create a file (e.g., `main.py` or `main.ts`) and start with a basic client setup:
+
+   Python:
+   ```python
+   import network_as_code as nac
+
+   client = nac.NetworkAsCodeClient(
+       token="<your-application-key-here>"
+   )
+   ```
+
+   TypeScript:
+   ```typescript
+   import { NetworkAsCodeClient } from 'network-as-code';
+
+   const client = new NetworkAsCodeClient("<your-application-key-here>");
+   ```
+
+8. Create a Test Device:
+   Use a test device identifier like `myprojectdevice1@testcsp.net` or a phone number with prefix `+3672`, `+3670`, or `+3637`.
+
+9. Try a Feature:
+   Start with a simple feature like creating a Quality-of-service on Demand (QoD) session.
+
+10. Explore Documentation:
+    Refer to the Network as Code documentation for detailed information on available features and how to use them.
+
+Remember to handle your App Keys securely and not expose them in public repositories. As you progress, you can explore more advanced features like Device Location, Network Slicing, and others available in the NaC platform.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/getting-started
+
+Time taken for printing first token: 24.26 seconds
+Time taken for printing last token: 24.26 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 24.27 seconds
+
+-------------------------------------------------------------
+
+Question: Where can I find my API key?
+
+Response:
+
+You can find your API key (also referred to as your application key) by following these steps:
+
+1. Log in to the Network as Code Developer Portal:
+   First, ensure you're logged into the developer portal. Your username should appear in the top-right corner of the page when you're logged in.
+
+2. Access Your Dashboard:
+   Click on your username in the top-right corner and select "Dashboard" from the dropdown menu.
+
+3. Navigate to the Console:
+   From the top navigation bar on your Dashboard, click on "Console". This will take you to the application dashboard.
+
+4. View Your Applications:
+   In the Console, you'll see a list of your applications, including the default application that was created when you registered.
+
+5. Access Application Details:
+   Click on the specific application for which you want to view the API key.
+
+6. Copy Your API Key:
+   In the application details view, you should see your application key. You can view and copy it from here.
+
+Important notes:
+
+- If you've been assigned a developer role in an organization, you may need to check the organization app keys. You can do this by choosing your organization using the drop-down menu on the top navigation bar in the Console view.
+
+- You can create new applications from the Console view if needed.
+
+- To delete an application, open the application view, click "Settings", and you'll see a "Remove App" button.
+
+- Remember to treat your API keys like secrets or passwords. Do not commit them to Git or show them publicly anywhere, as stolen API keys can be used maliciously.
+
+If you're having trouble locating your API key or need to request a new one, you may need to contact the Network as Code support team for assistance.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/getting-started
+* Source: https://developer.networkascode.nokia.io/docs/enterprise-onboarding/enterprise-onboarding
+
+Time taken for printing first token: 19.45 seconds
+Time taken for printing last token: 19.45 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 19.46 seconds
+
+-------------------------------------------------------------
+
+Question: Why do I need to include private, public IP addresses and port when creating a QoD session?
+
+Response:
+
+Great question! The need to include both private and public IP addresses, as well as a port, when creating a Quality of Demand (QoD) session is related to how devices are identified in mobile networks, particularly when Network Address Translation (NAT) is involved. Here's a breakdown of why these elements are necessary:
+
+1. NAT and Mobile Networks:
+   Mobile networks often use NAT (Network Address Translation) to conserve IPv4 addresses. This means multiple devices can share a single public IP address.
+
+2. Unique Device Identification:
+   To uniquely identify a device behind NAT, you need more than just the public IP address. The combination of public IP, private IP, and port allows for precise device identification.
+
+3. Public IP Address:
+   This is the address visible to the internet and is shared among multiple devices in a NAT setup.
+
+4. Private IP Address:
+   This is the address assigned to the device within the private network (behind NAT). It helps distinguish between devices sharing the same public IP.
+
+5. Port:
+   The port number is crucial for identifying the specific connection or session for the device, especially when multiple devices are using the same public IP.
+
+6. DeviceIPv4Addr Model:
+   Network as Code uses a DeviceIPv4Addr model that requires these parameters to accurately identify devices.
+
+7. Preventing Misidentification:
+   Without this combination, there's a risk of misidentifying devices or applying QoD to the wrong device, especially in dense network environments.
+
+8. Example from Documentation:
+   ```python
+   my_device = client.devices.get(
+       ipv4_address=DeviceIpv4Addr(
+           public_address="233.252.0.2",
+           private_address="192.0.2.25",
+           public_port=80
+       ),
+       # other parameters...
+   )
+   ```
+
+9. Flexibility:
+   The documentation notes that you need to provide either the public address and port OR both public and private addresses. This flexibility allows for different network configurations.
+
+10. Accurate QoS Application:
+    By precisely identifying the device, the network can apply the correct QoS policies to the right data streams.
+
+It's important to note that this level of detail in device identification ensures that the QoD session is applied accurately and effectively, especially in complex mobile network environments where many devices may share network resources.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/quality-on-demand/session-creation
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/identifying-devices#identifying-devices-by-ip-address-and-port
+
+Time taken for printing first token: 19.06 seconds
+Time taken for printing last token: 19.07 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 19.08 seconds
+
+-------------------------------------------------------------
+
+Question: What are some real-world use case examples for Network as Code?
+
+Response:
+
+Network as Code (NaC) offers a wide range of real-world applications across various industries. Here are some key use case examples:
+
+1. Drone / UAV Applications:
+   - Asset & Infrastructure Inspection
+   - Surveying & Aerial Mapping
+   - Monitoring & Safety
+   - Photo & Video Capture
+
+   These applications require high QoS and stable connectivity, which NaC can provide.
+
+2. Fleet Management & Industrial Vehicles:
+   - Vehicle monitoring & Safety
+   - Self-driving & Remote control
+   - Video and sensor data capture
+   - Private to Public wireless transitions
+
+   NaC helps optimize applications for large geographical areas across networks.
+
+3. Industrial / Public Safety:
+   - Reliable safety monitoring
+   - Intelligent threat detection
+   - Rapid, automated response
+
+   NaC enables priority network access during emergency responses.
+
+4. Entertainment:
+   - Immersive video experiences
+   - AR/VR/XR applications
+   - Cloud Gaming
+
+   These applications require ultra-high performance networks that NaC can help manage.
+
+5. Transportation & Connected Vehicles:
+   - Autonomous Vehicles: NaC can help manage dynamic bandwidth allocation and network slice selection based on changing network conditions.
+   - Fleet Management: Improving existing solutions with programmable networks and 5G IoT.
+
+6. Agriculture:
+   - Connected Agriculture: Managing network connectivity for various smart farming applications.
+   - Autonomous Tractors: Coordinating tractor operations using device locations and AI, requiring high-bandwidth and stable connectivity.
+   - Drone crop and livestock inspections: Utilizing device location and dynamic bandwidth allocation.
+
+7. Worker Safety / Campus Safety:
+   - Real-time hazard detection and response
+   - High-bandwidth video inspections
+   - Location tracking of workers and assets
+
+8. Asset Management and Asset Tracking:
+   - Logistics and supply chain management
+   - Equipment and tool tracking
+   - Geofencing and location breach alerts
+
+9. Live Events:
+   - Enhanced event security through user identity verification
+   - Improved attendee experience with location-based services
+
+10. Cloud Gaming:
+    - Ensuring consistent gaming experiences across different network conditions
+    - Dynamic QoS management based on player location and network insights
+
+These use cases leverage various NaC features such as Quality on Demand (QoD), Device Location, Specialized Networks (including network slicing), Device Insights, and Network Insights. They demonstrate how NaC can be applied to improve connectivity, enhance safety, optimize operations, and enable new services across multiple sectors.
+
+Sources:
+* Source: Based on Network-as-Code use cases shared by Nokia
+
+Time taken for printing first token: 23.51 seconds
+Time taken for printing last token: 23.51 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 23.52 seconds
+
+-------------------------------------------------------------
+
+Question: How does network as code handle end-user consent?
+
+Response:
+
+Network as Code (NaC) handles end-user consent through two main flows: Client Initiated Backchannel Authentication (CIBA) and Authorization Code flow. Here's an overview of how each works:
+
+1. Client Initiated Backchannel Authentication (CIBA) Flow:
+
+   - This is the simpler and more common flow.
+   - It's largely transparent to the application developer.
+   - How it works:
+     a. The application calls APIs normally using its application keys.
+     b. NaC runtime handles polling for access tokens on behalf of the application.
+     c. An Authorization Server guards access to the end-user device.
+     d. The Authorization Server triggers an appropriate end-user consent request.
+     e. The user can approve or deny this request.
+     f. Upon approval, the Authorization Server provides a client token authorized for the desired action.
+   - Developers should note that this process may take some time, so API request timeouts may need adjustment.
+   - NaC SDKs use extended timeouts by default to accommodate this.
+
+2. Authorization Code Flow:
+
+   - This flow is used when an end-user needs to take positive action to indicate their consent.
+   - How it works:
+     a. The developer constructs an authorization URL pointing to the NaC authorization server.
+     b. This URL includes the developer's own redirect handler as a redirect URI.
+     c. The end-user application is directed to this URL.
+     d. NaC redirects the user to their operator-specific consent portal to approve the request.
+     e. If consent is given, the application is redirected back to the developer's redirect URI with an operator code.
+     f. This code is exchanged for a single-use access token.
+     g. The token is passed along with subsequent API requests to validate user consent.
+
+Key Points:
+
+- Privacy by Design: NaC adopts a privacy-by-design approach and complies with data protection regulations like GDPR.
+- Legitimate Interest: Applications need consent to process personal or private enterprise information with "legitimate interest".
+- Scope-based Authorization: Consent is granted for specific scopes (API names) and can be extended with resource names or allowed actions (read/write).
+- Dynamic Purpose Specification: Some APIs may require dynamically specifying a valid purpose for the authorization request.
+
+Consent Management:
+
+- Consent management involves granting or revoking an application's access to APIs and their parameters.
+- This ensures that only authorized applications can access device data safely.
+
+Developer Responsibilities:
+
+- Developers should ensure their applications present appropriate consent request screens in line with data privacy legislation.
+- For APIs other than Number Verification, developers must notify NaC support if their application uses API calls for a new purpose after registration.
+
+By implementing these consent flows, Network as Code ensures that end-user privacy is protected while allowing applications to access necessary network capabilities and device information in a compliant manner.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/consent-identity-mgmt
+
+Time taken for printing first token: 31.34 seconds
+Time taken for printing last token: 31.34 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 31.35 seconds
+
+-------------------------------------------------------------
+
+Question: What do I need to do to my application in order to be able to receive notifications from Network as Code?
+
+Response:
+
+To receive notifications from Network as Code (NaC), you need to set up a notification URL (also known as a webhook) in your application. Here's what you need to do:
+
+1. Create an HTTP Endpoint:
+   Set up an HTTP server in your application that can receive POST requests. This endpoint will handle incoming notifications from NaC.
+
+2. Configure Notification URL:
+   When setting up features that support notifications (like device status monitoring, QoD sessions, or slice creation), you need to provide a notification URL. This should be the URL of your HTTP endpoint.
+
+3. Implement Authentication:
+   Use an authentication token to secure your endpoint. This token will be sent with each notification to verify the sender.
+
+4. Handle Notifications:
+   Your endpoint should be able to parse and process the incoming JSON notifications.
+
+Here's a basic example of how to set this up:
+
+Python (using FastAPI):
+```python
+from fastapi import FastAPI, Header
+from pydantic import BaseModel
+from typing import Union, Annotated
+
+app = FastAPI()
+
+class Notification(BaseModel):
+    id: str
+    source: str
+    type: str
+    specversion: str
+    datacontenttype: str
+    time: str
+    data: dict
+
+@app.post("/notifications")
+def receive_notification(
+    notification: Notification,
+    authorization: Annotated[Union[str, None], Header()]
+):
+    if authorization == "Bearer my-token":
+        # Process the notification
+        print(notification)
+    else:
+        # Handle unauthorized requests
+        pass
+```
+
+TypeScript (using Express):
+```typescript
+import express, { Express, Request, Response } from "express";
+
+const app: Express = express();
+const port = process.env.PORT || 3000;
+
+app.use(express.json())
+
+interface DeviceStatusNotification {
+    id: string,
+    source: string,
+    type: string,
+    specversion: string,
+    datacontenttype: string,
+    time: string,
+    data: {
+        // Define the data structure based on the notification type
+    }
+}
+
+app.post("/notifications", (req: Request, res: Response) => {
+    const notification: DeviceStatusNotification = req.body;
+    const authToken = req.headers.authorization;
+
+    if (authToken === "Bearer my-token") {
+        // Process the notification
+        console.log(notification);
+        res.status(200).end();
+    } else {
+        // Handle unauthorized requests
+        res.status(401).end();
+    }
+});
+
+app.listen(port, () => {
+    console.log(`Server is running at http://localhost:${port}`);
+});
+```
+
+Key points to remember:
+
+1. Use HTTPS for your notification URL to ensure secure communication.
+
+2. Include the notification URL and auth token when setting up features that support notifications. For example:
+   ```python
+   my_subscription = client.connectivity.subscribe(
+       event_type="org.camaraproject.device-status.v0.connectivity-data",
+       device=my_device,
+       max_num_of_reports=5,
+       notification_url="https://example.com/notify",
+       notification_auth_token="replace-with-your-auth-token"
+   )
+   ```
+
+3. The exact implementation of your notification handler can be customized based on your needs.
+
+4. Notifications can be used for various NaC features, including:
+   - QoD session updates
+   - Device connectivity status
+   - Roaming status
+   - Network slice monitoring
+   - Congestion level notifications
+   - SIM swap detection
+   - Number verification
+
+By implementing this notification handling system, your application will be able to receive and process real-time updates from Network as Code, allowing for more dynamic and responsive network management.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/notification-url
+
+Time taken for printing first token: 31.49 seconds
+Time taken for printing last token: 31.49 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 31.50 seconds
+
+-------------------------------------------------------------
+
+Question: What is a code example that uses QoD API?
+
+Response:
+
+Certainly! Here's a code example that demonstrates how to use the Quality of Demand (QoD) API in Network as Code. This example shows how to create a QoD session, retrieve session information, and delete a session. I'll provide examples in both Python and TypeScript.
+
+Python Example:
+
+```python
+import network_as_code as nac
+from network_as_code.models.device import DeviceIpv4Addr
+
+# Create a Network as Code client
+client = nac.NetworkAsCodeClient(token="<your-application-key-here>")
+
+# Create a device object
+my_device = client.devices.get(
+    ipv4_address=DeviceIpv4Addr(
+        public_address="233.252.0.2",
+        private_address="192.0.2.25",
+        public_port=80
+    ),
+    ipv6_address="2001:db8:1234:5678:9abc:def0:fedc:ba98",
+    phone_number="+36721601234567"
+)
+
+# Create a QoD session
+my_session = my_device.create_qod_session(
+    service_ipv4="233.252.0.2",
+    service_ipv6="2001:db8:1234:5678:9abc:def0:fedc:ba98",
+    profile="QOS_L",
+    duration=3600,
+    notification_url="https://notify.me/here",
+    notification_auth_token="replace-with-your-auth-token"
+)
+
+# Print session details
+print(f"Session ID: {my_session.id}")
+print(f"QoS Profile: {my_session.profile}")
+print(f"Status: {my_session.status}")
+print(f"Expires at: {my_session.expires_at}")
+
+# Get all sessions for the device
+all_sessions = my_device.sessions()
+print(f"Total sessions: {len(all_sessions)}")
+
+# Get a specific session by ID
+session_by_id = client.sessions.get(my_session.id)
+print(f"Retrieved session status: {session_by_id.status}")
+
+# Delete the session
+my_session.delete()
+print("Session deleted")
+```
+
+TypeScript Example:
+
+```typescript
+import { NetworkAsCodeClient } from 'network-as-code';
+
+async function main() {
+    // Create a Network as Code client
+    const client = new NetworkAsCodeClient("<your-application-key-here>");
+
+    // Create a device object
+    const myDevice = await client.devices.get({
+        ipv4Address: {
+            publicAddress: "233.252.0.2",
+            privateAddress: "192.0.2.25",
+            publicPort: 80,
+        },
+        ipv6Address: "2001:db8:1234:5678:9abc:def0:fedc:ba98",
+        phoneNumber: "+36721601234567"
+    });
+
+    // Create a QoD session
+    const mySession = await myDevice.createQodSession(
+        "QOS_L",
+        {
+            serviceIpv4: "233.252.0.2",
+            serviceIpv6: "2001:db8:1234:5678:9abc:def0:fedc:ba98",
+            duration: 3600,
+            notificationUrl: "https://notify.me/here",
+            notificationAuthToken: "replace-with-your-auth-token",
+        }
+    );
+
+    // Print session details
+    console.log(`Session ID: ${mySession.id}`);
+    console.log(`QoS Profile: ${mySession.profile}`);
+    console.log(`Status: ${mySession.status}`);
+    console.log(`Expires at: ${mySession.expiresAt}`);
+
+    // Get all sessions for the device
+    const allSessions = await myDevice.sessions();
+    console.log(`Total sessions: ${allSessions.length}`);
+
+    // Get a specific session by ID
+    const sessionById = await client.sessions.get(mySession.id);
+    console.log(`Retrieved session status: ${sessionById.status}`);
+
+    // Delete the session
+    await mySession.delete();
+    console.log("Session deleted");
+}
+
+main().catch(console.error);
+```
+
+These examples demonstrate:
+
+1. Creating a Network as Code client
+2. Identifying a device
+3. Creating a QoD session with a specific QoS profile
+4. Retrieving session details
+5. Getting all sessions for a device
+6. Retrieving a specific session by ID
+7. Deleting a session
+
+Remember to replace `<your-application-key-here>` with your actual application key, and adjust the IP addresses and phone numbers as needed for your use case.
+
+Also, note that these examples include setting up notifications. If you don't need notifications, you can omit the `notification_url` and `notification_auth_token` parameters when creating the QoD session.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/quality-on-demand/session-creation
+* Source: https://developer.networkascode.nokia.io/docs/quality-on-demand/get-session
+* Source: https://developer.networkascode.nokia.io/docs/quality-on-demand/session-deletion
+
+Time taken for printing first token: 29.29 seconds
+Time taken for printing last token: 29.29 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 29.30 seconds
+
+-------------------------------------------------------------
+
+Question: How much does it cost me to use network as code APIs?
+
+Response:
+
+I apologize, but I don't have specific pricing information for Nokia's Network as Code (NaC) APIs in the provided knowledge sources. Pricing details for using NaC APIs are not explicitly mentioned in the documentation I have access to.
+
+Typically, pricing for such services can depend on various factors such as:
+
+1. The specific APIs being used
+2. The volume of API calls
+3. The type of subscription or plan
+4. Any special enterprise agreements
+
+To get accurate and up-to-date pricing information for Network as Code APIs, I would recommend:
+
+1. Contacting Nokia's sales team directly
+2. Checking Nokia's official Network as Code website for any published pricing information
+3. Requesting a custom quote based on your specific usage requirements
+
+If you're considering using Network as Code for a project, it would be best to reach out to Nokia directly for the most current and accurate pricing details tailored to your needs.
+
+Time taken for printing first token: 32.96 seconds
+Time taken for printing last token: 32.96 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 32.97 seconds
+
+-------------------------------------------------------------
+
+Question: Write an automated test script in Python that verifies NaC device status API is actually working.
+
+Response:
+
+Certainly! Here's an automated test script in Python that verifies if the Network as Code (NaC) device status API is working correctly. This script uses the `unittest` framework and the NaC Python SDK to test the device status functionality.
+
+```python
+import unittest
+import network_as_code as nac
+from network_as_code.models.device import DeviceIpv4Addr
+from network_as_code.errors import AuthenticationException, APIError, NotFound, ServiceError
+
+class TestNaCDeviceStatus(unittest.TestCase):
+    def setUp(self):
+        # Initialize the NaC client
+        # Replace with your actual application key
+        self.client = nac.NetworkAsCodeClient(token="<your-application-key-here>")
+        
+        # Create a test device
+        # Use a valid test device identifier
+        self.test_device = self.client.devices.get(
+            phone_number="+3672123456"  # Use a valid test phone number
+        )
+
+    def test_device_status(self):
+        try:
+            # Attempt to get the device status
+            status = self.test_device.status()
+
+            # Check if status is not None
+            self.assertIsNotNone(status, "Device status should not be None")
+
+            # Check if status has the expected attributes
+            self.assertTrue(hasattr(status, 'connected'), "Status should have 'connected' attribute")
+            self.assertIsInstance(status.connected, bool, "'connected' should be a boolean")
+
+            if status.connected:
+                self.assertTrue(hasattr(status, 'last_connection_time'), "Status should have 'last_connection_time' attribute when connected")
+            else:
+                self.assertTrue(hasattr(status, 'last_disconnection_time'), "Status should have 'last_disconnection_time' attribute when disconnected")
+
+            print(f"Device status: Connected = {status.connected}")
+            if status.connected:
+                print(f"Last connection time: {status.last_connection_time}")
+            else:
+                print(f"Last disconnection time: {status.last_disconnection_time}")
+
+        except AuthenticationException as e:
+            self.fail(f"Authentication failed: {str(e)}")
+        except APIError as e:
+            self.fail(f"API Error: {str(e)}")
+        except NotFound as e:
+            self.fail(f"Device not found: {str(e)}")
+        except ServiceError as e:
+            self.fail(f"Service Error: {str(e)}")
+        except Exception as e:
+            self.fail(f"Unexpected error: {str(e)}")
+
+    def test_invalid_device(self):
+        # Test with an invalid device
+        invalid_device = self.client.devices.get(phone_number="+1234567890")  # Use an invalid phone number
+        
+        with self.assertRaises(NotFound):
+            invalid_device.status()
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
+This script does the following:
+
+1. It sets up a test class `TestNaCDeviceStatus` that inherits from `unittest.TestCase`.
+
+2. In the `setUp` method, it initializes the NaC client and creates a test device object. Make sure to replace `<your-application-key-here>` with your actual application key.
+
+3. The `test_device_status` method:
+   - Attempts to get the status of the test device.
+   - Checks if the status is not None.
+   - Verifies that the status has the expected attributes ('connected' and either 'last_connection_time' or 'last_disconnection_time').
+   - Prints the device status information.
+
+4. The `test_invalid_device` method tests the behavior when trying to get the status of an invalid device. It expects a `NotFound` exception to be raised.
+
+5. The script handles various exceptions that might occur during the API call, providing more detailed error messages.
+
+To run this test:
+
+1. Save the script to a file, e.g., `test_nac_device_status.py`.
+2. Replace `<your-application-key-here>` with your actual NaC application key.
+3. Ensure you have the NaC Python SDK installed (`pip install network_as_code`).
+4. Run the script using Python: `python test_nac_device_status.py`
+
+This test script will help verify that the NaC device status API is working correctly by checking both valid and invalid scenarios. It also provides error handling to give more context if something goes wrong during the API calls.
+
+Remember to use a valid test device identifier (like a phone number from the test range) when running this script to avoid any unintended actions on real devices.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/status/device-connectivity
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/error-handling
+
+Time taken for printing first token: 49.87 seconds
+Time taken for printing last token: 49.87 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 49.88 seconds
+
+-------------------------------------------------------------
+
+Question: How do I interpret the network insights API response?
+
+Response:
+
+The Network Insights API in Network as Code (NaC) provides information about network congestion levels for specific geographic areas. Here's how to interpret the response from this API:
+
+1. Congestion Level:
+   The API returns a congestion level, which is typically represented as an enumerated value. The possible values are:
+
+   - LOW: Indicates minimal network congestion
+   - MEDIUM: Indicates moderate network congestion
+   - HIGH: Indicates significant network congestion
+
+2. Response Structure:
+   The response is usually in JSON format and contains the following key information:
+
+   - id: A unique identifier for the congestion subscription
+   - device: Information about the device for which congestion data is being reported
+   - congestionLevel: The current congestion level (LOW, MEDIUM, or HIGH)
+   - timestamp: The time at which the congestion level was measured
+
+3. Example Response:
+   ```json
+   {
+     "id": "congestion-sub-123",
+     "device": {
+       "externalId": "device-123"
+     },
+     "congestionLevel": "MEDIUM",
+     "timestamp": "2023-06-15T14:30:00Z"
+   }
+   ```
+
+4. Interpreting the Results:
+   - LOW: The network is operating well below capacity. Applications should experience optimal performance.
+   - MEDIUM: There is some congestion, which might affect performance of high-bandwidth or latency-sensitive applications.
+   - HIGH: Significant congestion is present. Applications may experience degraded performance, especially those requiring high bandwidth or low latency.
+
+5. Using the Information:
+   - For LOW congestion: Applications can operate normally, potentially even increasing data usage if needed.
+   - For MEDIUM congestion: Consider optimizing data usage. Delay non-critical, high-bandwidth operations if possible.
+   - For HIGH congestion: Minimize non-essential data usage. Prioritize critical operations and consider implementing data-saving measures.
+
+6. Timestamp:
+   Always check the timestamp to ensure you're working with current data. Network conditions can change rapidly.
+
+7. Device Information:
+   The response includes details about the device for which the congestion level is reported. This helps in correlating the congestion data with specific devices or areas.
+
+8. Subscription ID:
+   The 'id' field represents the subscription identifier. This is useful for managing multiple congestion subscriptions if you're monitoring several devices or areas.
+
+When working with the Network Insights API programmatically, you can use this structure to make decisions in your application. For example:
+
+```python
+def handle_congestion(congestion_data):
+    level = congestion_data['congestionLevel']
+    if level == 'LOW':
+        print("Network conditions are optimal")
+    elif level == 'MEDIUM':
+        print("Some network congestion, consider optimizing data usage")
+    elif level == 'HIGH':
+        print("High network congestion, minimize non-essential data usage")
+    
+    print(f"Timestamp: {congestion_data['timestamp']}")
+    print(f"Device ID: {congestion_data['device']['externalId']}")
+```
+
+Remember that the Network Insights API provides real-time data, allowing your applications to adapt dynamically to changing network conditions. This can be particularly useful for applications that require consistent performance or need to manage data usage efficiently.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/network-insights/index-insights
+* Source: https://developer.networkascode.nokia.io/docs/network-insights/get-congestion
+
+Time taken for printing first token: 39.43 seconds
+Time taken for printing last token: 39.43 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 39.45 seconds
+
+-------------------------------------------------------------
+
+Question: What do I need to do to my application in order to be able to receive notifications from Network as Code?
+
+Response:
+
+To receive notifications from Network as Code (NaC), you need to set up a notification URL (also known as a webhook) in your application. Here are the key steps you need to take:
+
+1. Create an HTTP Endpoint:
+   Set up an HTTP server in your application that can receive POST requests. This endpoint will handle incoming notifications from NaC.
+
+2. Configure Notification URL:
+   When using NaC features that support notifications (like device status monitoring, QoD sessions, or slice creation), provide your notification URL. This should be the URL of your HTTP endpoint.
+
+3. Implement Authentication:
+   Use an authentication token to secure your endpoint. This token will be sent with each notification to verify the sender.
+
+4. Handle Notifications:
+   Your endpoint should be able to parse and process the incoming JSON notifications.
+
+Here's a basic example of how to set this up:
+
+Python (using FastAPI):
+
+```python
+from fastapi import FastAPI, Header
+from pydantic import BaseModel
+from typing import Union, Annotated
+
+app = FastAPI()
+
+class Notification(BaseModel):
+    id: str
+    source: str
+    type: str
+    specversion: str
+    datacontenttype: str
+    time: str
+    data: dict
+
+@app.post("/notifications")
+def receive_notification(
+    notification: Notification,
+    authorization: Annotated[Union[str, None], Header()]
+):
+    if authorization == "Bearer my-token":
+        # Process the notification
+        print(notification)
+    else:
+        # Handle unauthorized requests
+        pass
+```
+
+TypeScript (using Express):
+
+```typescript
+import express, { Express, Request, Response } from "express";
+
+const app: Express = express();
+const port = process.env.PORT || 3000;
+
+app.use(express.json())
+
+interface DeviceStatusNotification {
+    id: string,
+    source: string,
+    type: string,
+    specversion: string,
+    datacontenttype: string,
+    time: string,
+    data: {
+        // Define the data structure based on the notification type
+    }
+}
+
+app.post("/notifications", (req: Request, res: Response) => {
+    const notification: DeviceStatusNotification = req.body;
+    const authToken = req.headers.authorization;
+
+    if (authToken === "Bearer my-token") {
+        // Process the notification
+        console.log(notification);
+        res.status(200).end();
+    } else {
+        // Handle unauthorized requests
+        res.status(401).end();
+    }
+});
+
+app.listen(port, () => {
+    console.log(`Server is running at http://localhost:${port}`);
+});
+```
+
+Key points to remember:
+
+1. Use HTTPS for your notification URL to ensure secure communication.
+
+2. Include the notification URL and auth token when setting up features that support notifications. For example:
+
+```python
+my_subscription = client.connectivity.subscribe(
+    event_type="org.camaraproject.device-status.v0.connectivity-data",
+    device=my_device,
+    max_num_of_reports=5,
+    notification_url="https://example.com/notify",
+    notification_auth_token="replace-with-your-auth-token"
+)
+```
+
+3. The exact implementation of your notification handler can be customized based on your needs.
+
+4. Notifications can be used for various NaC features, including QoD session updates, device connectivity status, roaming status, network slice monitoring, congestion level notifications, SIM swap detection, and number verification.
+
+By implementing this notification handling system, your application will be able to receive and process real-time updates from Network as Code, allowing for more dynamic and responsive network management.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/notification-url
+
+Time taken for printing first token: 30.84 seconds
+Time taken for printing last token: 30.84 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 30.86 seconds
+
+-------------------------------------------------------------
+
+Question: What is a code example that uses QoD API?
+
+Response:
+
+Certainly! Here's a code example that demonstrates how to use the Quality of Demand (QoD) API in Network as Code. This example shows how to create a QoD session, retrieve session information, and delete a session. I'll provide examples in both Python and TypeScript.
+
+Python Example:
+
+```python
+import network_as_code as nac
+from network_as_code.models.device import DeviceIpv4Addr
+
+# Create a Network as Code client
+client = nac.NetworkAsCodeClient(token="<your-application-key-here>")
+
+# Create a device object
+my_device = client.devices.get(
+    ipv4_address=DeviceIpv4Addr(
+        public_address="233.252.0.2",
+        private_address="192.0.2.25",
+        public_port=80
+    ),
+    ipv6_address="2001:db8:1234:5678:9abc:def0:fedc:ba98",
+    phone_number="+36721601234567"
+)
+
+# Create a QoD session
+my_session = my_device.create_qod_session(
+    service_ipv4="233.252.0.2",
+    service_ipv6="2001:db8:1234:5678:9abc:def0:fedc:ba98",
+    profile="QOS_L",
+    duration=3600,
+    notification_url="https://notify.me/here",
+    notification_auth_token="replace-with-your-auth-token"
+)
+
+# Print session details
+print(f"Session ID: {my_session.id}")
+print(f"QoS Profile: {my_session.profile}")
+print(f"Status: {my_session.status}")
+print(f"Expires at: {my_session.expires_at}")
+
+# Get all sessions for the device
+all_sessions = my_device.sessions()
+print(f"Total sessions: {len(all_sessions)}")
+
+# Get a specific session by ID
+session_by_id = client.sessions.get(my_session.id)
+print(f"Retrieved session status: {session_by_id.status}")
+
+# Delete the session
+my_session.delete()
+print("Session deleted")
+```
+
+TypeScript Example:
+
+```typescript
+import { NetworkAsCodeClient } from 'network-as-code';
+
+async function main() {
+    // Create a Network as Code client
+    const client = new NetworkAsCodeClient("<your-application-key-here>");
+
+    // Create a device object
+    const myDevice = await client.devices.get({
+        ipv4Address: {
+            publicAddress: "233.252.0.2",
+            privateAddress: "192.0.2.25",
+            publicPort: 80,
+        },
+        ipv6Address: "2001:db8:1234:5678:9abc:def0:fedc:ba98",
+        phoneNumber: "+36721601234567"
+    });
+
+    // Create a QoD session
+    const mySession = await myDevice.createQodSession(
+        "QOS_L",
+        {
+            serviceIpv4: "233.252.0.2",
+            serviceIpv6: "2001:db8:1234:5678:9abc:def0:fedc:ba98",
+            duration: 3600,
+            notificationUrl: "https://notify.me/here",
+            notificationAuthToken: "replace-with-your-auth-token",
+        }
+    );
+
+    // Print session details
+    console.log(`Session ID: ${mySession.id}`);
+    console.log(`QoS Profile: ${mySession.profile}`);
+    console.log(`Status: ${mySession.status}`);
+    console.log(`Expires at: ${mySession.expiresAt}`);
+
+    // Get all sessions for the device
+    const allSessions = await myDevice.sessions();
+    console.log(`Total sessions: ${allSessions.length}`);
+
+    // Get a specific session by ID
+    const sessionById = await client.sessions.get(mySession.id);
+    console.log(`Retrieved session status: ${sessionById.status}`);
+
+    // Delete the session
+    await mySession.delete();
+    console.log("Session deleted");
+}
+
+main().catch(console.error);
+```
+
+These examples demonstrate:
+
+1. Creating a Network as Code client
+2. Identifying a device
+3. Creating a QoD session with a specific QoS profile
+4. Retrieving session details
+5. Getting all sessions for a device
+6. Retrieving a specific session by ID
+7. Deleting a session
+
+Remember to replace `<your-application-key-here>` with your actual application key, and adjust the IP addresses and phone numbers as needed for your use case.
+
+Also, note that these examples include setting up notifications. If you don't need notifications, you can omit the `notification_url` and `notification_auth_token` parameters when creating the QoD session.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/quality-on-demand/session-creation
+* Source: https://developer.networkascode.nokia.io/docs/quality-on-demand/get-session
+* Source: https://developer.networkascode.nokia.io/docs/quality-on-demand/session-deletion
+
+Time taken for printing first token: 30.12 seconds
+Time taken for printing last token: 30.12 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 30.13 seconds
+
+-------------------------------------------------------------
+
+Question: How much does it cost me to use network as code APIs?
+
+Response:
+
+I apologize, but I don't have specific pricing information for Nokia's Network as Code (NaC) APIs in the provided knowledge sources. Pricing details for using NaC APIs are not explicitly mentioned in the documentation I have access to.
+
+Typically, pricing for such services can depend on various factors such as:
+
+1. The specific APIs being used
+2. The volume of API calls
+3. The type of subscription or plan
+4. Any special enterprise agreements
+
+To get accurate and up-to-date pricing information for Network as Code APIs, I would recommend:
+
+1. Contacting Nokia's sales team directly
+2. Checking Nokia's official Network as Code website for any published pricing information
+3. Requesting a custom quote based on your specific usage requirements
+
+If you're considering using Network as Code for a project, it would be best to reach out to Nokia directly for the most current and accurate pricing details tailored to your needs.
+
+Time taken for printing first token: 12.30 seconds
+Time taken for printing last token: 12.30 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 12.31 seconds
+
+-------------------------------------------------------------
+
+Question: Write an automated test script in Python that verifies NaC device status API is actually working.
+
+Response:
+
+Certainly! Here's an automated test script in Python that verifies if the Network as Code (NaC) device status API is working correctly. This script uses the `unittest` framework and the NaC Python SDK to test the device status functionality.
+
+```python
+import unittest
+import network_as_code as nac
+from network_as_code.models.device import DeviceIpv4Addr
+from network_as_code.errors import AuthenticationException, APIError, NotFound, ServiceError
+
+class TestNaCDeviceStatus(unittest.TestCase):
+    def setUp(self):
+        # Initialize the NaC client
+        # Replace with your actual application key
+        self.client = nac.NetworkAsCodeClient(token="<your-application-key-here>")
+        
+        # Create a test device
+        # Use a valid test device identifier
+        self.test_device = self.client.devices.get(
+            phone_number="+3672123456"  # Use a valid test phone number
+        )
+
+    def test_device_status(self):
+        try:
+            # Attempt to get the device status
+            status = self.test_device.status()
+
+            # Check if status is not None
+            self.assertIsNotNone(status, "Device status should not be None")
+
+            # Check if status has the expected attributes
+            self.assertTrue(hasattr(status, 'connected'), "Status should have 'connected' attribute")
+            self.assertIsInstance(status.connected, bool, "'connected' should be a boolean")
+
+            if status.connected:
+                self.assertTrue(hasattr(status, 'last_connection_time'), "Status should have 'last_connection_time' attribute when connected")
+            else:
+                self.assertTrue(hasattr(status, 'last_disconnection_time'), "Status should have 'last_disconnection_time' attribute when disconnected")
+
+            print(f"Device status: Connected = {status.connected}")
+            if status.connected:
+                print(f"Last connection time: {status.last_connection_time}")
+            else:
+                print(f"Last disconnection time: {status.last_disconnection_time}")
+
+        except AuthenticationException as e:
+            self.fail(f"Authentication failed: {str(e)}")
+        except APIError as e:
+            self.fail(f"API Error: {str(e)}")
+        except NotFound as e:
+            self.fail(f"Device not found: {str(e)}")
+        except ServiceError as e:
+            self.fail(f"Service Error: {str(e)}")
+        except Exception as e:
+            self.fail(f"Unexpected error: {str(e)}")
+
+    def test_invalid_device(self):
+        # Test with an invalid device
+        invalid_device = self.client.devices.get(phone_number="+1234567890")  # Use an invalid phone number
+        
+        with self.assertRaises(NotFound):
+            invalid_device.status()
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
+This script does the following:
+
+1. It sets up a test class `TestNaCDeviceStatus` that inherits from `unittest.TestCase`.
+
+2. In the `setUp` method, it initializes the NaC client and creates a test device object. Make sure to replace `<your-application-key-here>` with your actual application key.
+
+3. The `test_device_status` method:
+   - Attempts to get the status of the test device.
+   - Checks if the status is not None.
+   - Verifies that the status has the expected attributes ('connected' and either 'last_connection_time' or 'last_disconnection_time').
+   - Prints the device status information.
+
+4. The `test_invalid_device` method tests the behavior when trying to get the status of an invalid device. It expects a `NotFound` exception to be raised.
+
+5. The script handles various exceptions that might occur during the API call, providing more detailed error messages.
+
+To run this test:
+
+1. Save the script to a file, e.g., `test_nac_device_status.py`.
+2. Replace `<your-application-key-here>` with your actual NaC application key.
+3. Ensure you have the NaC Python SDK installed (`pip install network_as_code`).
+4. Run the script using Python: `python test_nac_device_status.py`
+
+This test script will help verify that the NaC device status API is working correctly by checking both valid and invalid scenarios. It also provides error handling to give more context if something goes wrong during the API calls.
+
+Remember to use a valid test device identifier (like a phone number from the test range) when running this script to avoid any unintended actions on real devices.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/status/device-connectivity
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/error-handling
+
+Time taken for printing first token: 28.63 seconds
+Time taken for printing last token: 28.63 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 28.64 seconds
+
+-------------------------------------------------------------
+
+Question: How do I interpret the network insights API response?
+
+Response:
+
+The Network Insights API in Network as Code (NaC) provides information about network congestion levels for specific geographic areas or devices. Here's how to interpret the response from this API:
+
+1. Congestion Level:
+   The API returns a congestion level, which is typically represented as an enumerated value:
+   - LOW: Indicates minimal network congestion
+   - MEDIUM: Indicates moderate network congestion
+   - HIGH: Indicates significant network congestion
+
+2. Response Structure:
+   The response is in JSON format and contains the following key information:
+   - id: A unique identifier for the congestion subscription
+   - device: Information about the device for which congestion data is being reported
+   - congestionLevel: The current congestion level (LOW, MEDIUM, or HIGH)
+   - timestamp: The time at which the congestion level was measured
+
+3. Example Response:
+   ```json
+   {
+     "id": "congestion-sub-123",
+     "device": {
+       "externalId": "device-123"
+     },
+     "congestionLevel": "MEDIUM",
+     "timestamp": "2023-06-15T14:30:00Z"
+   }
+   ```
+
+4. Interpreting the Results:
+   - LOW: The network is operating well below capacity. Applications should experience optimal performance.
+   - MEDIUM: There is some congestion, which might affect performance of high-bandwidth or latency-sensitive applications.
+   - HIGH: Significant congestion is present. Applications may experience degraded performance, especially those requiring high bandwidth or low latency.
+
+5. Using the Information:
+   - For LOW congestion: Applications can operate normally, potentially even increasing data usage if needed.
+   - For MEDIUM congestion: Consider optimizing data usage. Delay non-critical, high-bandwidth operations if possible.
+   - For HIGH congestion: Minimize non-essential data usage. Prioritize critical operations and consider implementing data-saving measures.
+
+6. Timestamp:
+   Always check the timestamp to ensure you're working with current data. Network conditions can change rapidly.
+
+7. Device Information:
+   The response includes details about the device for which the congestion level is reported. This helps in correlating the congestion data with specific devices or areas.
+
+When working with the Network Insights API programmatically, you can use this structure to make decisions in your application. For example:
+
+```python
+def handle_congestion(congestion_data):
+    level = congestion_data['congestionLevel']
+    if level == 'LOW':
+        print("Network conditions are optimal")
+    elif level == 'MEDIUM':
+        print("Some network congestion, consider optimizing data usage")
+    elif level == 'HIGH':
+        print("High network congestion, minimize non-essential data usage")
+    
+    print(f"Timestamp: {congestion_data['timestamp']}")
+    print(f"Device ID: {congestion_data['device']['externalId']}")
+```
+
+Remember that the Network Insights API provides real-time data, allowing your applications to adapt dynamically to changing network conditions. This can be particularly useful for applications that require consistent performance or need to manage data usage efficiently.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/network-insights/index-insights
+* Source: https://developer.networkascode.nokia.io/docs/network-insights/get-congestion
+
+Time taken for printing first token: 33.90 seconds
+Time taken for printing last token: 33.90 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 33.91 seconds
+
+-------------------------------------------------------------
+
+Question: What are network APIs and why should I use them?
+
+Response:
+
+Network APIs, in the context of Network as Code (NaC), are programming interfaces that allow developers to interact with and control network resources programmatically. These APIs provide a way to access and manipulate network functionalities that were traditionally managed by network operators. Here's an overview of what network APIs are and why you should consider using them:
+
+What are Network APIs?
+
+1. Programmable Interfaces: They allow software applications to interact directly with network infrastructure.
+
+2. Abstraction Layer: Network APIs abstract complex network operations into simple, usable functions for developers.
+
+3. Network Capability Exposure: They expose network capabilities like quality of service, device location, network slicing, and more to applications.
+
+Why Use Network APIs?
+
+1. Enhanced Application Performance:
+   Network APIs allow applications to optimize their performance based on real-time network conditions. For example, you can use the Quality of Service on Demand (QoD) API to request higher bandwidth or lower latency when needed.
+
+2. Improved User Experience:
+   By leveraging network information, applications can provide a more consistent and reliable user experience. For instance, using the Network Insights API, an application can adjust its behavior based on network congestion levels.
+
+3. New Service Possibilities:
+   Network APIs enable the creation of innovative services that were not possible before. For example, using the Device Location API, you can develop location-based services with high accuracy.
+
+4. Efficient Resource Utilization:
+   APIs like Network Slicing allow for more efficient use of network resources, allocating them dynamically based on application needs.
+
+5. Cost Optimization:
+   By using network resources more efficiently and only when needed, businesses can potentially reduce their network-related costs.
+
+6. Security and Fraud Prevention:
+   APIs like SIM Swap detection and Number Verification can be used to enhance security measures and prevent fraud in applications.
+
+7. Cross-Network Compatibility:
+   Network APIs provide a standardized way to interact with different network infrastructures, making it easier to develop applications that work across various network providers.
+
+8. Real-time Adaptability:
+   Applications can adapt in real-time to changing network conditions, ensuring optimal performance even in challenging network environments.
+
+9. IoT and 5G Enablement:
+   These APIs are particularly crucial for IoT applications and 5G use cases, where efficient network usage and low latency are critical.
+
+10. Simplified Development:
+    Network APIs abstract complex network operations, allowing developers to focus on application logic rather than intricate network details.
+
+Examples of Network API Use Cases:
+
+- A video streaming application using QoD API to ensure high-quality streaming during peak times.
+- A fleet management system using Device Location API for accurate vehicle tracking.
+- A financial application using SIM Swap detection to prevent fraud.
+- An augmented reality application using Network Slicing API to ensure consistent low-latency performance.
+
+By using network APIs, developers can create more intelligent, efficient, and responsive applications that can fully leverage the capabilities of modern network infrastructure. This leads to better performing applications, improved user experiences, and the potential for innovative new services across various industries.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/index-arch
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/diagram-terms
+
+Time taken for printing first token: 23.88 seconds
+Time taken for printing last token: 23.89 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 23.90 seconds
+
+-------------------------------------------------------------
+
+Question: What is the difference between network APIs and regular APIs?
+
+Response:
+
+Network APIs and regular APIs share some similarities, but they have distinct characteristics and purposes. Here are the key differences between network APIs and regular APIs:
+
+1. Scope and Purpose:
+
+Network APIs:
+- Specifically designed to interact with and control network infrastructure and resources.
+- Provide access to network-specific functionalities like quality of service, device location, network slicing, etc.
+- Enable applications to leverage and optimize network capabilities directly.
+
+Regular APIs:
+- Have a broader scope, covering various types of software interfaces and services.
+- Can be used for a wide range of purposes, from data retrieval to complex business logic operations.
+- Not specifically tied to network infrastructure or telecommunications.
+
+2. Access to Network Resources:
+
+Network APIs:
+- Provide direct access to network-level resources and capabilities.
+- Allow applications to interact with core network functions that were traditionally managed by network operators.
+
+Regular APIs:
+- Generally do not provide access to low-level network resources.
+- Operate at the application or service level, rather than the network infrastructure level.
+
+3. Real-time Network Insights:
+
+Network APIs:
+- Often provide real-time information about network conditions, such as congestion levels or device connectivity status.
+- Allow applications to adapt dynamically to changing network environments.
+
+Regular APIs:
+- Typically do not offer real-time network-specific information.
+- May provide real-time data, but it's usually application or service-specific rather than network-related.
+
+4. Specialized Use Cases:
+
+Network APIs:
+- Tailored for telecommunications, IoT, 5G applications, and other network-centric use cases.
+- Essential for applications requiring precise control over network performance and behavior.
+
+Regular APIs:
+- Used in a wide variety of applications across different domains.
+- Not specifically optimized for network-related operations.
+
+5. Provider and Access:
+
+Network APIs:
+- Typically provided by telecommunications companies or network infrastructure providers.
+- Often require special permissions or partnerships to access due to their impact on network operations.
+
+Regular APIs:
+- Can be provided by any software service or platform.
+- Access is generally more straightforward, often requiring just an API key or OAuth authentication.
+
+6. Complexity and Abstraction:
+
+Network APIs:
+- Abstract complex network operations but still require understanding of network concepts.
+- May involve more complex security and access control mechanisms due to their critical nature.
+
+Regular APIs:
+- Abstraction level varies widely depending on the service.
+- Security measures are typically focused on data protection rather than network integrity.
+
+7. Impact and Responsibility:
+
+Network APIs:
+- Can have significant impacts on network performance and user experience across multiple applications or services.
+- Require careful use to avoid negatively affecting network operations.
+
+Regular APIs:
+- Impact is usually limited to the specific application or service they're associated with.
+- Misuse typically doesn't affect broader network operations.
+
+8. Standards and Protocols:
+
+Network APIs:
+- Often adhere to telecommunications industry standards (e.g., 3GPP specifications).
+- May use specialized protocols optimized for network operations.
+
+Regular APIs:
+- Generally follow web standards (REST, GraphQL, etc.).
+- Use common web protocols like HTTP/HTTPS.
+
+In summary, while regular APIs provide interfaces for various software services, Network APIs offer a specialized set of tools for interacting directly with network infrastructure. They enable a new level of network programmability, allowing applications to optimize their performance based on network conditions and leverage advanced network capabilities. This makes Network APIs particularly valuable for applications that require fine-tuned control over network resources or need to adapt to changing network environments in real-time.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/index-arch
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/diagram-terms
+
+Time taken for printing first token: 31.18 seconds
+Time taken for printing last token: 31.18 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 31.19 seconds
+
+-------------------------------------------------------------
+
+Question: Why would I use network APIs from Nokia NaC versus Vonage?
+
+Response:
+
+While I don't have specific information comparing Nokia's Network as Code (NaC) APIs directly to Vonage's offerings, I can highlight some key advantages of using Nokia's NaC APIs based on the information provided in the documentation:
+
+1. Specialized Network Capabilities:
+Nokia's NaC APIs are designed specifically for mobile network operations and 5G technologies. They offer advanced features like Quality of Service on Demand, Network Slicing, and Device Location services that are tightly integrated with mobile network infrastructure.
+
+2. Direct Network Integration:
+As a major telecommunications equipment provider, Nokia's APIs likely offer more direct and deeper integration with mobile network infrastructure, potentially providing more accurate and real-time network information.
+
+3. 5G and IoT Focus:
+Nokia's NaC is built with 5G and IoT applications in mind, offering capabilities that are crucial for these emerging technologies, such as low-latency communication and network slicing.
+
+4. Carrier-Grade Solutions:
+Nokia's solutions are typically carrier-grade, meaning they are designed to meet the high reliability and performance standards required by mobile network operators.
+
+5. Comprehensive Network Insights:
+NaC offers detailed network insights, including congestion levels and predictive analytics, which can be crucial for applications requiring adaptive network usage.
+
+6. Global Network Reach:
+Given Nokia's position in the telecommunications industry, their NaC APIs might offer broader global network coverage and compatibility.
+
+7. Specialized Use Cases:
+Nokia's NaC seems particularly well-suited for specific industries like autonomous vehicles, drone operations, and industrial IoT, where precise network control and reliability are critical.
+
+8. Edge Computing Integration:
+Nokia's platform includes edge computing capabilities, which can be essential for applications requiring ultra-low latency.
+
+While Vonage offers a range of communication APIs, Nokia's NaC appears to be more focused on providing deep, network-level capabilities specifically for mobile and 5G networks. The choice between them would depend on your specific application needs, especially if you require advanced mobile network features or are developing applications for 5G and IoT ecosystems.
+
+To make an informed decision, you would need to carefully evaluate your specific requirements against the detailed offerings of both Nokia NaC and Vonage, considering factors like feature set, pricing, network coverage, and integration capabilities.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/index-arch
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/diagram-terms
+
+Time taken for printing first token: 20.80 seconds
+Time taken for printing last token: 20.80 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 20.99 seconds
+
+-------------------------------------------------------------
+
+Question: What are some applications that use network APIs?
+
+Response:
+
+Network APIs enable a wide range of innovative applications across various industries. Here are some examples of applications that leverage network APIs:
+
+1. Autonomous Vehicles:
+Autonomous vehicles use network APIs for:
+- Real-time navigation updates based on network congestion
+- Ensuring high-quality, low-latency connections for critical operations
+- Dynamic QoS adjustments for vehicle-to-infrastructure communication
+
+2. Drone Operations:
+Drones utilize network APIs for:
+- Maintaining stable connections during flight
+- Adjusting flight paths based on network coverage and quality
+- Transmitting high-quality video feeds in real-time
+
+3. Industrial IoT and Manufacturing:
+In industrial settings, network APIs are used for:
+- Monitoring and controlling remote equipment
+- Ensuring reliable connections for critical machinery
+- Optimizing network usage in large-scale IoT deployments
+
+4. Public Safety and Emergency Services:
+Emergency services applications use network APIs for:
+- Prioritizing network access during crises
+- Accurate location tracking of emergency responders
+- Ensuring reliable communication in challenging network conditions
+
+5. Live Event Streaming:
+Event streaming applications leverage network APIs for:
+- Dynamically adjusting stream quality based on network conditions
+- Ensuring high-quality experiences for virtual attendees
+- Managing network resources efficiently in crowded venues
+
+6. Cloud Gaming:
+Cloud gaming platforms use network APIs to:
+- Provide consistent, low-latency gaming experiences
+- Adapt game quality based on real-time network conditions
+- Offer location-based gaming features
+
+7. Augmented and Virtual Reality:
+AR/VR applications utilize network APIs for:
+- Ensuring low-latency data transmission for immersive experiences
+- Adapting content quality based on available network resources
+- Enabling multi-user AR/VR experiences with consistent performance
+
+8. Fleet Management and Logistics:
+Logistics applications use network APIs for:
+- Real-time vehicle tracking and route optimization
+- Ensuring connectivity for in-vehicle systems across different network areas
+- Optimizing data transmission for large fleets
+
+9. Telehealth:
+Telehealth applications leverage network APIs for:
+- Ensuring high-quality, reliable video consultations
+- Prioritizing network resources for critical medical data transmission
+- Enabling remote patient monitoring with consistent connectivity
+
+10. Smart Cities:
+Smart city applications use network APIs for:
+- Managing and optimizing city-wide IoT sensor networks
+- Ensuring reliable connectivity for public safety systems
+- Adapting city services based on network usage patterns
+
+11. Financial Services:
+Financial applications utilize network APIs for:
+- Enhancing security through SIM swap detection and number verification
+- Ensuring reliable connectivity for mobile banking and payments
+- Optimizing performance of high-frequency trading systems
+
+12. Media and Entertainment:
+Entertainment applications use network APIs for:
+- Adaptive bitrate streaming based on network conditions
+- Enhancing user experiences at large entertainment venues
+- Enabling interactive, low-latency live streaming experiences
+
+13. Education:
+Educational platforms leverage network APIs for:
+- Ensuring reliable connectivity for remote learning
+- Optimizing content delivery based on network conditions
+- Enabling immersive, low-latency virtual classroom experiences
+
+These applications demonstrate how network APIs can be used to enhance performance, reliability, and user experience across a wide range of industries. By leveraging real-time network information and capabilities, these applications can adapt to changing network conditions, optimize resource usage, and provide more consistent and reliable services to users.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/index-arch
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/diagram-terms
+
+Time taken for printing first token: 31.32 seconds
+Time taken for printing last token: 31.33 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 31.34 seconds
+
+-------------------------------------------------------------
+
+Question: What are some benefits I would get by using network APIs?
+
+Response:
+
+Using network APIs offers numerous benefits for developers and businesses. Here are some key advantages you can gain by incorporating network APIs into your applications:
+
+1. Enhanced Application Performance:
+Network APIs allow you to optimize your application's performance based on real-time network conditions. For example, using the Quality of Service on Demand (QoD) API, you can request higher bandwidth or lower latency when needed, ensuring your application performs optimally even under challenging network conditions.
+
+2. Improved User Experience:
+By leveraging network information, you can provide a more consistent and reliable user experience. The Network Insights API, for instance, allows your application to adapt its behavior based on network congestion levels, ensuring smoother operation for users.
+
+3. Real-time Adaptability:
+Network APIs enable your applications to adapt in real-time to changing network conditions. This is particularly valuable for applications that require consistent performance, such as video streaming or online gaming.
+
+4. Efficient Resource Utilization:
+APIs like Network Slicing allow for more efficient use of network resources. You can dynamically allocate network resources based on your application's specific needs, potentially reducing costs and improving overall efficiency.
+
+5. New Service Possibilities:
+Network APIs enable the creation of innovative services that were not possible before. For example, using the Device Location API, you can develop highly accurate location-based services, opening up new possibilities for your applications.
+
+6. Enhanced Security and Fraud Prevention:
+APIs such as SIM Swap detection and Number Verification can be used to enhance security measures and prevent fraud in your applications, which is particularly valuable for financial and sensitive data applications.
+
+7. Cross-Network Compatibility:
+Network APIs provide a standardized way to interact with different network infrastructures, making it easier to develop applications that work across various network providers and regions.
+
+8. IoT and 5G Enablement:
+These APIs are particularly crucial for IoT applications and 5G use cases, where efficient network usage and low latency are critical. They allow you to fully leverage the capabilities of modern network infrastructure.
+
+9. Simplified Development:
+Network APIs abstract complex network operations, allowing you to focus on your application logic rather than intricate network details. This can significantly reduce development time and complexity.
+
+10. Cost Optimization:
+By using network resources more efficiently and only when needed, you can potentially reduce your network-related costs. For example, you can scale up resources only when demand is high and scale down during low-usage periods.
+
+11. Competitive Advantage:
+Leveraging network APIs can give your applications a competitive edge by offering features and performance that may not be possible with standard internet connectivity.
+
+12. Predictive Capabilities:
+Some network APIs offer predictive insights, allowing your applications to anticipate network conditions and adapt proactively, rather than just reacting to current conditions.
+
+13. Improved Reliability:
+For critical applications, network APIs can ensure more reliable connections by allowing your application to switch to better network conditions or request prioritized traffic.
+
+14. Global Reach:
+Network APIs can help manage the complexities of operating across different geographical regions and network providers, making it easier to deploy globally scalable applications.
+
+15. Data-Driven Decision Making:
+The insights provided by network APIs can inform business decisions, helping you understand usage patterns, performance bottlenecks, and opportunities for optimization.
+
+By leveraging these benefits, you can create more intelligent, efficient, and responsive applications that fully utilize the capabilities of modern network infrastructure. This leads to better performing applications, improved user experiences, and the potential for innovative new services across various industries.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/index-arch
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/diagram-terms
+
+Time taken for printing first token: 26.10 seconds
+Time taken for printing last token: 26.10 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 26.12 seconds
+
+-------------------------------------------------------------
+
+Question: What do I need to do to my application in order to be able to receive notifications from Network as Code?
+
+Response:
+
+To receive notifications from Network as Code (NaC), you need to set up a notification handling system in your application. Here's what you need to do:
+
+1. Configure a Notification URL:
+You need to set up an HTTP endpoint in your application that can receive POST requests. This URL will be used by NaC to send notifications.
+
+2. Implement a Notification Handler:
+Create a handler in your application to process incoming notifications. This typically involves setting up a web server with a POST endpoint.
+
+3. Use HTTPS:
+Ensure your notification URL uses HTTPS for secure communication.
+
+4. Specify Notification Parameters:
+When subscribing to notifications, you need to provide:
+   - `notification_url`: Your HTTPS endpoint to receive notifications
+   - `notification_auth_token`: A token for authenticating incoming notifications
+
+5. Handle Authentication:
+Your notification handler should verify the `Authorization` header in incoming requests to ensure they're from NaC.
+
+6. Process Notification Data:
+Parse and process the notification data according to your application's needs.
+
+Here's a basic example of how to set this up:
+
+```python
+from fastapi import FastAPI, Header
+from pydantic import BaseModel
+from typing import Union, Optional
+
+app = FastAPI()
+
+class Notification(BaseModel):
+    id: str
+    source: str
+    type: str
+    specversion: str
+    datacontenttype: str
+    time: str
+    data: dict
+
+@app.post("/notifications")
+def receive_notification(
+    notification: Notification,
+    authorization: Union[str, None] = Header(default=None)
+):
+    if authorization == "Bearer my-token":
+        # Process the notification
+        print(notification)
+        # Add your notification handling logic here
+    else:
+        # Handle unauthorized requests
+        pass
+```
+
+When subscribing to notifications in your NaC client code, you would do something like this:
+
+```python
+import network_as_code as nac
+
+client = nac.NetworkAsCodeClient(token="<your-application-key-here>")
+
+my_subscription = client.connectivity.subscribe(
+    event_type="org.camaraproject.device-status.v0.connectivity-data",
+    device=my_device,
+    max_num_of_reports=5,
+    notification_url="https://example.com/notifications",
+    notification_auth_token="my-token"
+)
+```
+
+Remember to:
+- Use a real HTTPS URL for `notification_url` in production.
+- Keep your `notification_auth_token` secret and use a strong, unique token.
+- Implement proper error handling and logging in your notification handler.
+- Consider scalability if you expect to handle a large volume of notifications.
+
+By following these steps, your application will be able to receive and process notifications from Network as Code, allowing you to react to network events in real-time.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/notification-url
+
+Time taken for printing first token: 41.44 seconds
+Time taken for printing last token: 41.44 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 41.45 seconds
+
+-------------------------------------------------------------
+
+Question: How much does it cost me to use network as code APIs?
+
+Response:
+
+I apologize, but I don't have specific pricing information for Nokia's Network as Code (NaC) APIs in the provided documentation. Pricing details for API services can vary significantly based on factors such as usage volume, specific APIs used, and negotiated agreements.
+
+To get accurate and up-to-date pricing information for Nokia's Network as Code APIs, you would need to:
+
+1. Contact Nokia's sales team directly. They can provide you with detailed pricing information tailored to your specific needs and usage patterns.
+
+2. Check Nokia's official Network as Code website or developer portal for any published pricing plans or tiers.
+
+3. Request a custom quote, especially if you're planning to use the APIs at scale or for enterprise-level applications.
+
+4. Inquire about any trial periods or free tiers that might be available for testing and development purposes.
+
+5. Ask about different pricing models that might be offered, such as pay-as-you-go, subscription-based, or volume-based pricing.
+
+It's important to note that pricing for network APIs can be complex and may depend on factors like:
+
+- The specific APIs you plan to use
+- Your expected usage volume
+- Any special features or support you require
+- The geographic regions where you'll be using the APIs
+- Whether you're an individual developer, a startup, or an enterprise customer
+
+Without specific information from Nokia, I can't provide exact costs. For the most accurate and current pricing information, I recommend reaching out directly to Nokia's Network as Code team or your Nokia account representative.
+
+Time taken for printing first token: 19.83 seconds
+Time taken for printing last token: 19.84 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 19.85 seconds
+
+-------------------------------------------------------------
+
+Question: Write an automated test script in Python that verifies NaC device status API is actually working.
+
+Response:
+
+Certainly! Here's an automated test script in Python that verifies if the Network as Code (NaC) device status API is working correctly. This script uses the `unittest` framework and the NaC Python SDK to check the functionality of the device status API.
+
+```python
+import unittest
+import network_as_code as nac
+from network_as_code.errors import AuthenticationException, APIError, NotFound, ServiceError
+
+class TestNaCDeviceStatusAPI(unittest.TestCase):
+
+    def setUp(self):
+        # Initialize the NaC client
+        # Replace with your actual application key
+        self.client = nac.NetworkAsCodeClient(token="<your-application-key-here>")
+        
+        # Use a test device ID
+        # Replace with a valid test device identifier
+        self.test_device_id = "myprojectdevice1@testcsp.net"
+
+    def test_device_status_api(self):
+        try:
+            # Get the device object
+            device = self.client.devices.get(network_access_identifier=self.test_device_id)
+            
+            # Check if the device object is created successfully
+            self.assertIsNotNone(device, "Failed to create device object")
+
+            # Get the device status
+            status = device.get_status()
+            
+            # Check if status is not None
+            self.assertIsNotNone(status, "Failed to retrieve device status")
+
+            # Check if the status has the expected attributes
+            self.assertIn('connection_status', status, "connection_status not found in device status")
+            self.assertIn('timestamp', status, "timestamp not found in device status")
+
+            # Check if the connection_status is a valid value
+            valid_statuses = ['CONNECTED', 'DISCONNECTED', 'UNKNOWN']
+            self.assertIn(status['connection_status'], valid_statuses, 
+                          f"Invalid connection_status: {status['connection_status']}")
+
+            print("Device Status API test passed successfully!")
+
+        except AuthenticationException as e:
+            self.fail(f"Authentication failed: {str(e)}")
+        except APIError as e:
+            self.fail(f"API Error: {str(e)}")
+        except NotFound as e:
+            self.fail(f"Resource not found: {str(e)}")
+        except ServiceError as e:
+            self.fail(f"Service Error: {str(e)}")
+        except Exception as e:
+            self.fail(f"Unexpected error occurred: {str(e)}")
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
+This script does the following:
+
+1. Imports necessary modules including the NaC SDK and error classes.
+
+2. Defines a test class `TestNaCDeviceStatusAPI` that inherits from `unittest.TestCase`.
+
+3. In the `setUp` method, initializes the NaC client with your application key and sets a test device ID.
+
+4. Defines a test method `test_device_status_api` that:
+   - Creates a device object using the test device ID.
+   - Retrieves the status of the device.
+   - Performs several assertions to verify the API is working correctly:
+     - Checks if the device object is created successfully.
+     - Verifies that a status is retrieved.
+     - Ensures the status contains expected attributes (connection_status and timestamp).
+     - Validates that the connection_status is one of the expected values.
+
+5. Handles various exceptions that might occur during the API call, failing the test with appropriate error messages if exceptions are caught.
+
+To use this script:
+
+1. Replace `<your-application-key-here>` with your actual NaC application key.
+2. Replace `myprojectdevice1@testcsp.net` with a valid test device identifier for your account.
+3. Ensure you have the NaC SDK installed (`pip install network_as_code`).
+4. Run the script. It will output the test results, indicating whether the Device Status API is working correctly.
+
+This test script provides a basic verification of the Device Status API functionality. You can expand it to include more detailed tests or to test other aspects of the NaC APIs as needed.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/getting-started
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/error-handling
+
+Time taken for printing first token: 27.34 seconds
+Time taken for printing last token: 27.35 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 27.36 seconds
+
+-------------------------------------------------------------
+
+Question: What are network APIs and why should I use them?
+
+Response:
+
+Network APIs (Application Programming Interfaces) are sets of protocols and tools that allow developers to interact with and leverage network capabilities programmatically. In the context of Nokia's Network as Code (NaC), these APIs provide access to advanced network functionalities, enabling developers to create more intelligent and responsive applications.
+
+Here's an overview of what network APIs are and why you should consider using them:
+
+What are Network APIs?
+
+1. Programmable Network Interfaces: Network APIs allow applications to communicate with and control various aspects of the network infrastructure.
+
+2. Abstraction Layer: They provide a simplified interface to complex network operations, hiding the underlying network complexities.
+
+3. Standardized Access: Network APIs offer a standardized way to access network capabilities across different providers and technologies.
+
+Why Use Network APIs?
+
+1. Enhanced Application Performance:
+Network APIs allow you to optimize your application's performance based on real-time network conditions. For example, you can request higher bandwidth or lower latency when needed, ensuring optimal performance even under challenging network conditions.
+
+2. Improved User Experience:
+By leveraging network information, you can provide a more consistent and reliable user experience. Your applications can adapt their behavior based on network conditions, ensuring smoother operation for users.
+
+3. Real-time Adaptability:
+Network APIs enable your applications to adapt in real-time to changing network conditions. This is particularly valuable for applications that require consistent performance, such as video streaming or online gaming.
+
+4. Efficient Resource Utilization:
+APIs like Network Slicing allow for more efficient use of network resources. You can dynamically allocate network resources based on your application's specific needs, potentially reducing costs and improving overall efficiency.
+
+5. New Service Possibilities:
+Network APIs enable the creation of innovative services that were not possible before. For example, using location APIs, you can develop highly accurate location-based services.
+
+6. Enhanced Security:
+Some network APIs provide additional security features, such as SIM swap detection and number verification, which can be crucial for financial and sensitive data applications.
+
+7. IoT and 5G Enablement:
+These APIs are particularly crucial for IoT applications and 5G use cases, where efficient network usage and low latency are critical. They allow you to fully leverage the capabilities of modern network infrastructure.
+
+8. Simplified Development:
+Network APIs abstract complex network operations, allowing you to focus on your application logic rather than intricate network details. This can significantly reduce development time and complexity.
+
+9. Cross-Network Compatibility:
+Network APIs provide a standardized way to interact with different network infrastructures, making it easier to develop applications that work across various network providers and regions.
+
+10. Competitive Advantage:
+Leveraging network APIs can give your applications a competitive edge by offering features and performance that may not be possible with standard internet connectivity.
+
+11. Data-Driven Decision Making:
+The insights provided by network APIs can inform business decisions, helping you understand usage patterns, performance bottlenecks, and opportunities for optimization.
+
+By using network APIs, developers can create more intelligent, efficient, and responsive applications that fully utilize the capabilities of modern network infrastructure. This leads to better performing applications, improved user experiences, and the potential for innovative new services across various industries.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/index-arch
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/diagram-terms
+
+Time taken for printing first token: 47.19 seconds
+Time taken for printing last token: 47.19 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 47.21 seconds
+
+-------------------------------------------------------------
+
+Question: What is the difference between network APIs and regular APIs?
+
+Response:
+
+Network APIs and regular APIs share some similarities, but they have distinct characteristics and purposes. Here are the key differences between network APIs and regular APIs:
+
+1. Scope and Focus:
+   - Network APIs: Specifically designed to interact with and control network infrastructure, providing access to network-level functionalities and data.
+   - Regular APIs: Can cover a wide range of functionalities across various domains, not limited to networking (e.g., social media APIs, payment APIs, weather APIs).
+
+2. Level of Abstraction:
+   - Network APIs: Provide a higher level of abstraction for complex network operations, hiding the intricacies of network protocols and infrastructure.
+   - Regular APIs: May operate at various levels of abstraction depending on their purpose, but generally don't deal with low-level network operations.
+
+3. Data and Functionality:
+   - Network APIs: Offer access to network-specific data and functions like Quality of Service (QoS), device status, network slicing, and location services.
+   - Regular APIs: Provide access to application-specific data and functions, which could be anything from user profiles to financial transactions.
+
+4. Infrastructure Interaction:
+   - Network APIs: Directly interact with network infrastructure components like routers, switches, and cellular towers.
+   - Regular APIs: Typically interact with application servers and databases, not directly with network infrastructure.
+
+5. Use Cases:
+   - Network APIs: Commonly used in scenarios requiring real-time network information or control, such as IoT applications, autonomous vehicles, or adaptive streaming services.
+   - Regular APIs: Used in a broader range of applications, from social media integration to e-commerce functionalities.
+
+6. Performance Impact:
+   - Network APIs: Can directly influence network performance and behavior, potentially affecting all users on a network.
+   - Regular APIs: Generally don't have direct impact on network performance, though they may indirectly affect it through data usage.
+
+7. Security and Access Control:
+   - Network APIs: Often require stricter security measures and access controls due to their potential impact on network infrastructure.
+   - Regular APIs: While security is important, the access controls may not be as stringent unless dealing with sensitive data.
+
+8. Standardization:
+   - Network APIs: Often adhere to telecom industry standards (e.g., 3GPP specifications) to ensure interoperability across different network providers.
+   - Regular APIs: May follow various standards depending on the industry, but generally have more flexibility in their design.
+
+9. Latency Sensitivity:
+   - Network APIs: Often designed for low-latency operations, crucial for real-time network management and control.
+   - Regular APIs: Latency requirements can vary widely depending on the application.
+
+10. Provider Specificity:
+    - Network APIs: May be specific to certain network providers or technologies (e.g., 5G networks).
+    - Regular APIs: Can be provider-specific but are often designed to be more universally accessible.
+
+11. Regulatory Considerations:
+    - Network APIs: May be subject to telecom regulations and standards, especially when dealing with user data or network resources.
+    - Regular APIs: Regulatory requirements vary based on the type of data and functionality they provide.
+
+In the context of Nokia's Network as Code (NaC), the network APIs offered provide a unique blend of network-level control and application-level abstraction. They allow developers to leverage advanced network capabilities in their applications without needing deep expertise in network engineering. This enables the creation of more network-aware and adaptive applications, particularly beneficial in areas like IoT, edge computing, and 5G use cases.
+
+Sources:
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/index-arch
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/diagram-terms
+
+Time taken for printing first token: 28.66 seconds
+Time taken for printing last token: 28.66 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 28.67 seconds
+
+-------------------------------------------------------------
+
+Question: Which Network as Code APIs can ride share applications like Uber use? How does the principles of net neutrality apply in this context?
+
+Response:
+
+Ride-sharing applications like Uber could potentially benefit from several Network as Code (NaC) APIs to enhance their service quality and user experience. Here are some relevant APIs and their potential uses:
+
+1. Quality of Service on Demand (QoS):
+   - Use case: Ensure reliable connectivity for drivers and passengers, especially in areas with high network congestion.
+   - Benefit: Improve real-time communication, location updates, and app responsiveness.
+
+2. Device Location:
+   - Use case: Enhance the accuracy of driver and passenger locations.
+   - Benefit: More precise pickup and dropoff coordination, reducing wait times and improving efficiency.
+
+3. Device Status:
+   - Use case: Monitor the connectivity status of drivers' devices.
+   - Benefit: Quickly identify and address connection issues that might affect service quality.
+
+4. Network Insights:
+   - Use case: Gain information about network conditions in different areas.
+   - Benefit: Optimize routing and driver allocation based on network performance in various locations.
+
+5. Specialized Networks (Network Slicing):
+   - Use case: Create a dedicated network slice for critical ride-sharing operations.
+   - Benefit: Ensure consistent performance for essential features like emergency services or high-priority rides.
+
+Regarding net neutrality principles in this context:
+
+Net neutrality is the principle that internet service providers (ISPs) should treat all internet traffic equally, without discriminating or charging differently based on user, content, website, platform, application, type of equipment, or method of communication. The use of Network as Code APIs by applications like ride-sharing services raises some important considerations:
+
+1. Potential Conflict:
+   - The use of QoS on Demand or Specialized Networks could be seen as giving preferential treatment to certain applications, potentially conflicting with net neutrality principles.
+
+2. Fairness Concerns:
+   - Smaller competitors without access to these APIs might argue that it creates an unfair advantage for larger companies that can afford to pay for enhanced network services.
+
+3. Transparency:
+   - Clear disclosure about the use of such APIs and their impact on service quality would be important to maintain transparency with users and regulators.
+
+4. Public Interest Argument:
+   - Proponents might argue that for certain critical services (like emergency ride-sharing), ensuring reliable connectivity serves the public interest and could be justified even within a net neutrality framework.
+
+5. Regulatory Scrutiny:
+   - The use of these APIs, especially those that affect network prioritization, might face regulatory scrutiny in regions with strict net neutrality laws.
+
+6. Equal Access Considerations:
+   - If these APIs are made equally available to all ride-sharing companies, it could potentially align better with net neutrality principles.
+
+7. Network Management vs. Content Discrimination:
+   - There's a debate about whether such services constitute legitimate network management practices or cross the line into content-based discrimination.
+
+8. User Choice:
+   - Allowing users to opt-in or out of enhanced network services could be a way to address some net neutrality concerns.
+
+The application of net neutrality principles to Network as Code APIs is a complex issue. While these APIs offer significant potential for improving service quality and user experience, their implementation needs to be carefully considered to ensure they don't unfairly disadvantage other internet users or services. The specific regulatory environment and interpretation of net neutrality rules in different regions would play a crucial role in determining how these APIs can be used in ride-sharing and similar applications.
+
+Sources:
+* Source: Based on Network-as-Code use cases shared by Nokia
+* Source: https://developer.networkascode.nokia.io/docs/general-concepts/index-arch
+
+Time taken for printing first token: 30.30 seconds
+Time taken for printing last token: 30.30 seconds
+Time taken for printing response: 0.00 seconds
+Time taken for chat session: 30.31 seconds
+
+-------------------------------------------------------------
+
